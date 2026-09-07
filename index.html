@@ -460,6 +460,7 @@
           </div>
         </div>
 
+        <!-- Pengalaman Organisasi -->
         <div class="mt-10">
           <h3 class="text-5xl font-display font-bold text-white mb-8">Organizational Experience</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
@@ -536,6 +537,88 @@
 
           </div>
         </div>
+
+        <!-- Pengalaman Bootcamp / Training -->
+        <div class="mt-16">
+          <h3 class="text-5xl font-display font-bold text-white mb-8">Bootcamp & Training</h3>
+          
+          <div class="card-accent reveal group relative flex flex-col md:flex-row gap-6 md:gap-8 p-6 md:p-8 bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700/50 rounded-3xl shadow-lg hover:shadow-2xl hover:shadow-cyan-900/20 transition-all duration-300">
+            
+            <!-- Sisi Kiri: Slider Gambar & Info Dasar -->
+            <div class="md:w-5/12 shrink-0 flex flex-col gap-4">
+              <!-- Wadah Slider -->
+              <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 border border-white/10 shadow-inner group/slider">
+                <div id="bisaai-slider" class="w-full h-full flex transition-transform duration-500 ease-out">
+                  <img src="assets/img/experience/bisaai-1.png" alt="BISA AI 1" class="w-full h-full object-cover shrink-0 cursor-pointer" onclick="moveBisaaiSlide(1)" loading="lazy">
+                  <img src="assets/img/experience/bisaai-2.png" alt="BISA AI 2" class="w-full h-full object-cover shrink-0 cursor-pointer" onclick="moveBisaaiSlide(1)" loading="lazy">
+                  <img src="assets/img/experience/bisaai-3.png" alt="BISA AI 3" class="w-full h-full object-cover shrink-0 cursor-pointer" onclick="moveBisaaiSlide(1)" loading="lazy">
+                  <img src="assets/img/experience/bisaai-4.png" alt="BISA AI 4" class="w-full h-full object-cover shrink-0 cursor-pointer" onclick="moveBisaaiSlide(1)" loading="lazy">
+                  <img src="assets/img/experience/bisaai-5.png" alt="BISA AI 5" class="w-full h-full object-cover shrink-0 cursor-pointer" onclick="moveBisaaiSlide(1)" loading="lazy">
+                  <img src="assets/img/experience/bisaai-6.png" alt="BISA AI 6" class="w-full h-full object-cover shrink-0 cursor-pointer" onclick="moveBisaaiSlide(1)" loading="lazy">
+                  <img src="assets/img/experience/bisaai-7.png" alt="BISA AI 7" class="w-full h-full object-cover shrink-0 cursor-pointer" onclick="moveBisaaiSlide(1)" loading="lazy">
+                  <img src="assets/img/experience/bisaai-8.png" alt="BISA AI 8" class="w-full h-full object-cover shrink-0 cursor-pointer" onclick="moveBisaaiSlide(1)" loading="lazy">
+                </div>
+                
+                <!-- Tombol Panah Navigasi -->
+                <button type="button" onclick="moveBisaaiSlide(-1)" class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-slate-950/70 text-white flex items-center justify-center opacity-0 group-hover/slider:opacity-100 transition-opacity hover:bg-cyan-500 hover:text-slate-900">‹</button>
+                <button type="button" onclick="moveBisaaiSlide(1)" class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-slate-950/70 text-white flex items-center justify-center opacity-0 group-hover/slider:opacity-100 transition-opacity hover:bg-cyan-500 hover:text-slate-900">›</button>
+                
+                <!-- Indikator Titik -->
+                <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5 z-10 flex-wrap justify-center w-full px-4">
+                  <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white/90 cursor-pointer indicator-dot-bisaai shadow-sm" onclick="currentBisaaiSlide(0)"></span>
+                  <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white/40 cursor-pointer indicator-dot-bisaai shadow-sm" onclick="currentBisaaiSlide(1)"></span>
+                  <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white/40 cursor-pointer indicator-dot-bisaai shadow-sm" onclick="currentBisaaiSlide(2)"></span>
+                  <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white/40 cursor-pointer indicator-dot-bisaai shadow-sm" onclick="currentBisaaiSlide(3)"></span>
+                  <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white/40 cursor-pointer indicator-dot-bisaai shadow-sm" onclick="currentBisaaiSlide(4)"></span>
+                  <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white/40 cursor-pointer indicator-dot-bisaai shadow-sm" onclick="currentBisaaiSlide(5)"></span>
+                  <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white/40 cursor-pointer indicator-dot-bisaai shadow-sm" onclick="currentBisaaiSlide(6)"></span>
+                  <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white/40 cursor-pointer indicator-dot-bisaai shadow-sm" onclick="currentBisaaiSlide(7)"></span>
+                </div>
+              </div>
+              
+              <!-- Info Dasar -->
+              <div class="mt-2">
+                <span class="inline-block px-3 py-1.5 bg-slate-950 border border-white/10 text-white text-[10px] font-bold uppercase tracking-widest rounded-lg mb-2 font-mono shadow-sm">Sep 2024 — Des 2024</span>
+                <h3 class="text-2xl font-display font-bold text-white leading-tight">Data Science (MSIB)</h3>
+                <p class="text-sm font-medium text-slate-400 mt-1">BISA AI Academy • Jakarta / Online</p>
+              </div>
+            </div>
+
+            <!-- Sisi Kanan: Deskripsi Kegiatan & Skill -->
+            <div class="md:w-7/12 space-y-4 md:pl-4 flex flex-col justify-between">
+              <div>
+                <div class="border-b border-white/10 pb-3 mb-4">
+                  <h4 class="text-xl font-display font-bold text-cyan-400">Peserta Studi Independen</h4>
+                </div>
+                <ul class="list-none space-y-2.5 text-slate-300 text-xs md:text-sm leading-relaxed">
+                  <li class="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-cyan-500 before:rounded-full">Mengembangkan model machine learning dan prediktif untuk menyelesaikan berbagai kasus penggunaan bisnis.</li>
+                  <li class="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-cyan-500 before:rounded-full">Menerapkan metode computer vision di permasalahan pengolahan dan klasifikasi citra.</li>
+                  <li class="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-cyan-500 before:rounded-full">Mengekstrak insight bermakna melalui analisis statistik dan visualisasi data.</li>
+                  <li class="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-cyan-500 before:rounded-full">Mengoperasikan Python, R, dan SQL sebagai alat utama untuk pengolahan data, analisis, dan pengembangan model.</li>
+                  <li class="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-cyan-500 before:rounded-full">Menerapkan teknik Natural Language Processing (NLP) untuk tugas analisis teks berskala besar.</li>
+                  <li class="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-cyan-500 before:rounded-full">Memperluas keterampilan dasar full-stack programming untuk mendukung pembangunan aplikasi berbasis data.</li>
+                  <li class="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-cyan-500 before:rounded-full">Mengubah dataset mentah menjadi format yang siap dianalisis melalui teknik data preprocessing.</li>
+                </ul>
+              </div>
+              
+              <!-- Tag Skills BISA AI -->
+              <div class="flex flex-wrap gap-2 pt-5 border-t border-white/10 font-mono text-[10px]">
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">Machine Learning</span>
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">Computer Vision</span>
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">NLP</span>
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">Python</span>
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">R</span>
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">SQL</span>
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">Orange</span>
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">React JS</span>
+                <span class="px-2.5 py-1 bg-white/5 border border-white/10 text-slate-300 rounded-md font-semibold">Deep Learning</span>
+              </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -1141,6 +1224,35 @@
       const dots = document.querySelectorAll('.indicator-dot-hmm');
       dots.forEach((dot, idx) => {
         if (idx === currentHmmIndex) {
+          dot.classList.remove('bg-white/40');
+          dot.classList.add('bg-white/90');
+        } else {
+          dot.classList.remove('bg-white/90');
+          dot.classList.add('bg-white/40');
+        }
+      });
+    }
+
+    // Slider Logic BISA AI Bootcamp
+    let currentBisaaiIndex = 0;
+    function moveBisaaiSlide(direction) {
+      const slider = document.getElementById('bisaai-slider');
+      if (!slider) return;
+      const totalSlides = slider.children.length;
+      currentBisaaiIndex = (currentBisaaiIndex + direction + totalSlides) % totalSlides;
+      updateBisaaiSlider();
+    }
+    function currentBisaaiSlide(index) {
+      currentBisaaiIndex = index;
+      updateBisaaiSlider();
+    }
+    function updateBisaaiSlider() {
+      const slider = document.getElementById('bisaai-slider');
+      if (!slider) return;
+      slider.style.transform = `translateX(-${currentBisaaiIndex * 100}%)`;
+      const dots = document.querySelectorAll('.indicator-dot-bisaai');
+      dots.forEach((dot, idx) => {
+        if (idx === currentBisaaiIndex) {
           dot.classList.remove('bg-white/40');
           dot.classList.add('bg-white/90');
         } else {
